@@ -89,6 +89,29 @@ h1, h2, h3, h4, h5, h6 {
   text-align-last: center;
   font-family: "Poppins", sans-serif;
 }
+.button {
+  background-color: #4ea3ca; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4ea3ca;
+}
+
+.button1:hover {
+  background-color: #c5e8f8;
+  color: white;
+}
 
 #header .profile h1 a, #header .profile h1 a:hover {
   color: #fff;
